@@ -13,8 +13,6 @@ test.describe('Singlish to Sinhala Translator - Alternate Test Cases', () => {
     await page.waitForLoadState('networkidle');
   });
 
-  // ...existing code...
-
   // ==================== ALTERNATE POSITIVE FUNCTIONAL TEST CASES ====================
 
   // These tests check correct translation for a variety of valid inputs
