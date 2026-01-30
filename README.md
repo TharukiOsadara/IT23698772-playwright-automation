@@ -125,17 +125,6 @@ npx playwright show-report
 └── README.md                         # This file
 ```
 
-```typescript
-export class ConverterPage {
-  inputField = 'textarea';
-  outputField = '#output';
-  convertButton = 'button';
-  clearButton = '#clear';
-}
-
-```
-
----
 
 ## Test Categories
 
@@ -260,3 +249,4 @@ jobs:
       run: npx playwright test
 
 >>>>>>> 19b7da7 (Update README and singlish Translator test)
+
