@@ -125,6 +125,15 @@ npx playwright show-report
 └── README.md                         # This file
 ```
 
+```typescript
+export class ConverterPage {
+  inputField = 'textarea';
+  outputField = '#output';
+  convertButton = 'button';
+  clearButton = '#clear';
+}
+
+```
 
 ---
 
@@ -185,13 +194,11 @@ This project was created as part of a software testing assignment to demonstrate
 
 ## License
 
----
 This project is created for educational purposes.
+|----------|------|-----------------|
 | **S (Short)** | Small | ≤ 30 characters |
 | **M (Medium)** | Medium | 31 - 299 characters |
 | **L (Long)** | Large | ≥ 300 characters |
-
----
 
 ## 📝 Reports
 
@@ -253,6 +260,3 @@ jobs:
       run: npx playwright test
 
 >>>>>>> 19b7da7 (Update README and singlish Translator test)
-
-
-
